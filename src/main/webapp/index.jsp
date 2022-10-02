@@ -20,9 +20,9 @@ System.out.println(now.toString());
 	<h4>リンク</h4>
 	<nav>
 		<ul>
-			<li><a href="/SampleHP/A.jsp">なにか</a></li>
-			<li><a href="/SampleHP/B.jsp">ある</a></li>
-			<li><a href="/SampleHP/C.jsp">かもしれない</a></li>
+			<li><a href="<%= request.getContextPath() %>/Tweet.jsp">なにか</a></li>
+			<li><a href="<%= request.getContextPath() %>/B.jsp">ある</a></li>
+			<li><a href="<%= request.getContextPath() %>/C.jsp">かもしれない</a></li>
 		</ul>
 	</nav>
 	</div>
